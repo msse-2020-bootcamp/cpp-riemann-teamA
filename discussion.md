@@ -12,4 +12,8 @@ author: Angela, Camille, Jasmine
 
 4. Starting with (a + dx/2), increment by dx until we reach (b - dx/2).
 
-5. 
+6. It takes about 190 points to start converging to the proper result.
+
+## Discussion
+
+The Monte-Carlo method is preferred when the integrand becomes more complicated. When we use Riemann sums, we approximate the integral by using rectangles, so having a curve that oscillates, for example, will force us to have smaller rectangles (and a higher number of points). This idea extends to higher dimensional systems.
